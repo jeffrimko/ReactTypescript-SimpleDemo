@@ -1,0 +1,11 @@
+= React/TypeScript Simple Demo
+:date: 27 December 2020
+
+== Introduction
+This is a simple demo of using https://reactjs.org/[React] with https://www.typescriptlang.org/[TypeScript]. This demo provides a page with multiple number input elements whose values are summed together.
+
+== Requirements
+This demo was written with the Windows OS in mind although it should be easy enough to run on other operating systems. All dependencies should be listed in the main `_Check_Dependencies.bat` which is generated from `install\dependencies.popyaml` using https://github.com/jeffrimko/PopPage[PopPage]. Local Node modules will be installed when the app is started the first time.
+
+== Usage
+A https://pypi.org/project/ubuild/[Ubuild] script is provided at `_Run.py` which should handle the basics like starting/stopping the server and viewing the app.

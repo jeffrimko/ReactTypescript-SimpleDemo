@@ -1,0 +1,16 @@
+# This is a PopPage YAML file used to generate dependency/requirement files.
+
+__opt__:
+    command: make
+    inpath:
+      - https://github.com/jeffrimko/PopPageTemplates/blob/master/check_deps_batch/template.jinja2
+    outpath:
+      - ..\_Check_Dependencies.bat
+
+deps:
+
+  - name: 'Npm'
+    desc: 'Node package manager.'
+    ref: 'https://www.npmjs.com/'
+    ver: 'latest'
+    cmd: npm -v
